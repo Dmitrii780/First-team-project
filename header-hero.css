@@ -1,0 +1,40 @@
+header {
+  position: fixed;
+  z-index: 2;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-item > a {
+  font-size: 10px;
+  color: #fff;
+}
+.nav-item > a:hover {
+  text-decoration: underline;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.hero {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: url("./assets/thehero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.fa-circle-down {
+  position: absolute;
+  font-size: 45px;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  transition: all 140ms ease-in;
+}
+.fa-circle-down:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
