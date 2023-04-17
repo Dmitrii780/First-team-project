@@ -1,3 +1,62 @@
+
 body {
   font-family: "PT Sans";
 }
+
+.footer {
+    background: #191919;
+    color: #ffffff;
+  }
+
+  h4 {
+    margin-left: 5%;
+  }
+  
+  .footer-row {
+    color: #8f8f8f;
+    margin-left: 5%;
+    padding: 20px 0;
+  }
+  
+  .footer-wrapper {
+    padding: 2% 0;
+  }
+  
+  .footer a {
+    color: #8f8f8f;
+  }
+  
+  .footer a:hover {
+    color: #ffffff;
+  }
+  
+  .footer-social {
+    width: 100%;
+    padding: 2% 0 0 0;
+    clear: both;
+    position: absolute;
+    top: 20px;
+    left:70%;
+  }
+  
+  .footer-social a {
+    display: inline-block;
+    margin: 0px 10px;
+    color: #8f8f8f;
+  }
+  
+  .footer-social a:hover {
+    color: #ffffff;
+  }
+  
+  .footer-social a:first-of-type {
+    margin-left: 0;
+  }
+  
+  .footer-copyright {
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5% 0;
+  }
+  
+
