@@ -1,3 +1,8 @@
+
+body {
+  font-family: "PT Sans";
+}
+
 .footer {
     background: #191919;
     color: #ffffff;
@@ -54,3 +59,4 @@
     padding: 1.5% 0;
   }
   
+
