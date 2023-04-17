@@ -17,7 +17,7 @@ header {
 
 .hero {
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background: url("./assets/thehero.jpg");
   background-size: cover;
