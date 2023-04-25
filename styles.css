@@ -3,9 +3,82 @@ body {
   font-family: "PT Sans";
 }
 
+button {
+  background-color: #ffffff;
+  color: #565656;;
+  border:solid thin;
+  border-radius: 0;
+  padding:30px 80px;
+  margin: 20px 0;
+  font-size: xx-large;
+  font-weight: bold;
+}
+button:hover {
+  background-color: #565656;;
+  color: #ffffff;
+}
+
+.section-header {
+  text-align: center;
+}
+
+dl {
+  margin: 0 auto;
+  max-width: 700px;
+  overflow: hidden;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: "PT Sans", sans-serif;
+}
+
+dt,dd {
+  line-height: 1.42857143;
+  border-bottom: 1px dotted #b9b9b9;
+  float: left;
+  margin-bottom: 3px;
+  padding-bottom: 7px;
+  line-height: 25px;
+}
+
+dt {
+  
+  width: 70%;
+}
+
+dd {
+  margin-left: 0;
+  text-align: right;
+  width: 30%;
+}
+
+p {
+  max-width: 700px;
+  
+  margin: 0 auto;
+}
+
+.col-sm-4 {
+  
+  float: left;
+  position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-color: inherit;
+    
+}
+
+.img-responsive {
+  border-radius: 50%;
+}
+
 .footer {
     background: #191919;
     color: #ffffff;
+    position: relative;
   }
 
   h4 {
